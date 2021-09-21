@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="h-100">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +14,7 @@
   <meta name="keywords" content="turnos especialistas pediatricos, Endocrinología Infantil, Cardiología Infantil, Neonatología,Neurología Infantil,Cardiología Infantil, Neumonología Pediátrica, Odontopediatría, Psiquiatría Infanto Juvenil,Otoemisiones Acústicas">
 
 </head>
-<body class="d-flex h-100 text-center text-white bg-dark">
+<body class="d-flex alto-100 text-center text-white bg-dark">
 
   <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
     <header class="mb-auto">
@@ -29,68 +29,63 @@
         </nav>
       </div>
     </header>
-</br>
-<div class="texto">
-<h4 class="tur">TURNOS</h4>  
-<h5>Complete el siguiente Formulario para solicitarlos</h5>
-<p>Se le confirmara la disponibilidad de turno y el horario via whatsapp</p>
-<form method="POST">
-<label for="esp">Especialista</label> </br>
-<select id="esp" name="esp">
-    <option value="endInf">Endocrinología Infantil</option>
-    <option value="cardInf">Cardiología Infantil</option>
-    <option value="neo">Neonatología</option>
-    <option value="ped">Pediatría</option>
-    <option value="neuInf">Neurología Infantil</option>
-    <option value="carInf">Cardiología Infantil</option>
-    <option value="neuPed">Neumonología Pediátrica</option>
-    <option value="odo">Odontopediatría</option>
-    <option value="psiInfJuv">Psiquiatría Infanto Juvenil</option>
-    <option value="otoAcu">Otoemisiones Acústicas</option>
-</br>
-</select>
-</br>
-<label for="nombre">Nombre del paciente:</label>
-<input type="text" id="nombre"></br>
 
-<label for="apellido">Apellido: </label>
-<input type="text" id="apellido"></br>
+  <div class="texto">
+    <h4 class="tur">TURNOS</h4>  
+    <h5 class="turr">Complete el siguiente Formulario para solicitarlos</h5>
+    <p>Se le confirmara la disponibilidad de turno y el horario via whatsapp</p>
+    <form method="POST">
+    <label for="esp">Especialista</label> </br>
+    <select id="esp" name="esp">
+        <option value="endInf">Endocrinología Infantil</option>
+        <option value="cardInf">Cardiología Infantil</option>
+        <option value="neo">Neonatología</option>
+        <option value="ped">Pediatría</option>
+        <option value="neuInf">Neurología Infantil</option>
+        <option value="carInf">Cardiología Infantil</option>
+        <option value="neuPed">Neumonología Pediátrica</option>
+        <option value="odo">Odontopediatría</option>
+        <option value="psiInfJuv">Psiquiatría Infanto Juvenil</option>
+        <option value="otoAcu">Otoemisiones Acústicas</option>
+    </br>
+    </select>
+    </br>
+    <label for="nombre">Nombre del paciente:</label>
+    <input type="text" id="nombre"></br>
 
-<label for="edad">Edad:</label>
-<input type="number" id="edad"></br>
+    <label for="apellido">Apellido: </label>
+    <input type="text" id="apellido"></br>
 
-<label for="tel">Telefono(Ingrese solo numeros):</label>
-<input type="tel" id="tel"></br>
+    <label for="edad">Edad:</label>
+    <input type="number" id="edad"></br>
 
-<label>Género</label></br>
-<input type="radio" id="fem" name="genero" value="femenino"/>
-<label for="fem">Femenino</label>
-<input type="radio" id="masc" name="genero" value="masculino">
-<label for="masc">Masculino</label></br>
+    <label for="tel">Telefono(Ingrese solo numeros):</label>
+    <input type="tel" id="tel"></br>
 
-<label for="fecha">Fecha(Lun a Vie): </label>
-<input type="date" id="fecha"></br>
+    <label>Género</label></br>
+    <input type="radio" id="fem" name="genero" value="femenino"/>
+    <label for="fem">Femenino</label>
+    <input type="radio" id="masc" name="genero" value="masculino">
+    <label for="masc">Masculino</label></br>
 
-<label>Seleccione horario(uno o más)</label><br/>
-<input type="checkbox" id="mañana" name="horario" value="horario">
-<label for="mañana">Mañana</label></br>
-<input type="checkbox" id="tarde" name="horario" value="horario">
-<label for="tarde">Tarde</label></br>
-<input type="checkbox" id="mediodia" name="horario" value="horario">
-<label for="mediodia">Mediodia</label></br>
-<input type="submit" value="Enviar Solicitud turno"/>
-<input type="reset" value="Resetear datos"/> </br></br></br>
-</div>
+    <label for="fecha">Fecha(Lun a Vie): </label>
+    <input type="date" id="fecha"></br>
+
+    <label>Seleccione horario(uno o más)</label><br/>
+    <input type="checkbox" id="mañana" name="horario" value="horario">
+    <label for="mañana">Mañana</label></br>
+    <input type="checkbox" id="tarde" name="horario" value="horario">
+    <label for="tarde">Tarde</label></br>
+    <input type="checkbox" id="mediodia" name="horario" value="horario">
+    <label for="mediodia">Mediodia</label></br>
+    <input type="submit" value="Enviar Solicitud turno"/>
+    <input type="reset" value="Resetear datos"/> 
+  </div>
 
 </form>
 
     <footer class="mt-auto text-white-50">
       ValRo, todos los derechos reservados.
     </footer>
-  </div>
-
-
-
 </body>
-
 </html>
